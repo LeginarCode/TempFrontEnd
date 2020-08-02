@@ -19,32 +19,32 @@
   
     /*==================================================================
     [ Validate ]*/
-    var name = $('.validate-input input[name="name"]');
-    var email = $('.validate-input input[name="email"]');
-    var message = $('.validate-input textarea[name="message"]');
+    // var name = $('.validate-input input[name="name"]');
+    var email = $('.validate-input input[name="EMAIL"]');
+    var message = $('.validate-input textarea[name="MMERGE6"]');
 
 
-    $('.validate-form').on('submit',function(){
-        var check = true;
+    // $('.validate-form').on('submit',function(){
+    //     var check = true;
 
-        if($(name).val().trim() == ''){
-            showValidate(name);
-            check=false;
-        }
+        // if($(name).val().trim() == ''){
+        //     showValidate(name);
+        //     check=false;
+        // }
 
 
-        if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-            showValidate(email);
-            check=false;
-        }
+        // if($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+        //     showValidate(email);
+        //     check=false;
+        // }
 
-        if($(message).val().trim() == ''){
-            showValidate(message);
-            check=false;
-        }
+        // if($(message).val().trim() == ''){
+        //     showValidate(message);
+        //     check=false;
+        // }
 
-        return check;
-    });
+    //     return check;
+    // });
 
 
     $('.validate-form .input100').each(function(){
