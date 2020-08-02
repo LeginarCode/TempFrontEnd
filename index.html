@@ -18,6 +18,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/custom.css">
+  <script src="./js/countdown.js"></script>
 </head>
 
 <body >
@@ -33,45 +34,7 @@
                     </div>
                 </div>
                 <!-- Menu Block -->
-                <div class="col-sm-1 col-6 col-lg-6 col-xl-6 offset-lg-2  position-static order-lg-2">
-                    <div class="main-navigation">
-                        <ul class="main-menu">
-                            <li class="menu-item has-dropdown">
-                                <a href="#features">Free Landing Pages</a>
-                                    <ul class="menu-dropdown">
-                                        <li class="single-item">
-                                            <a href="">
-                                            <h3>Mobile Application</h3> 
-                                            <p>Best for Mobile App Presentation</p>
-                                            </a>
-                                        </li>
-                                        <li class="single-item">
-                                            <a href="">
-                                                <h3>Web Application</h3>
-                                                <p>Best for Mobile App Presentation</p>
-                                            </a> 
-                                        </li>
-                                        <li class="single-item">
-                                            <a href="">
-                                                <h3>SaaS Application</h3>
-                                            <p>Best for Mobile App Presentation</p>
-                                        </a> 
-                                        </li>
-                                        <li class="single-item">
-                                            <a href="">
-                                                    <h3> SaaS Subscription</h3>
-                                                <p>Best for Mobile App Presentation</p>
-                                            </a> 
-                                        </li>
-                                    </ul>
-                                </li>
-                            <li class="menu-item "><a href="#features">Course topics</a></li>
-                    
-                            <li class="menu-item"><a href="#">Student stories</a></li>
-                            </ul>
-                    </div>
-                    <div class="mobile-menu"></div>
-                </div>
+                
             </div>
         </div>
         <div class="shape-holder header-shape" data-aos="fade-down" data-aos-once="true"><img src="image/header-shape.svg" alt=""></div>
@@ -85,7 +48,7 @@
         <div class="hero-content">
           <h1>Litigation Financing and Management</h1>
           <p>Leginar is building a platform for people to invest in lawsuits. We also develop dashboards and organizational tools for litigants, attorneys and law firms to manage their documents, finances and deadlines. </p>
-          <div class="hero-btn"><a href="#" class="btn btn--orange btn--hover-shine">Join The Waitlist</a></div>
+          <div class="hero-btn"><a href="LeginarWaitlist/index.html" class="btn btn--orange btn--hover-shine">Join The Waitlist</a></div>
         </div>
       </div>
 
@@ -94,8 +57,10 @@
           <img src="image/hero.png" alt="">
           <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a>
           <div class="media-shape animate-spin"><img src="image/media-shape.png" alt=""></div>
+          <p id="countdown"></p>
         </div>
       </div>
+
     </div>
   </div>
   <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div>
@@ -108,7 +73,7 @@
       <div class="fact-absolute">
           <div class="row justify-content-center">
               <div class="col-xl-7 col-lg-8 mb--35  text-center">
-                <span class="fact-text">A Novel Approach To Litigation Financing.</span>
+                <span class="fact-text">A novel approach to commercialize, invest in and manage lawsuits.</span>
               </div>
             </div>
             <div class="row justify-content-center space-db--30">
@@ -118,10 +83,6 @@
                             <span class="number">12,382</span>
                             <p class="info">Happy Students</p>
                           </div>
-                
-                          <div class="card-icon">
-                            <img src="image/users-wm.png" alt="">
-                          </div>
                         </div>
                 </div>
                 
@@ -130,11 +91,7 @@
                           <div class="card-content">
                             <span class="number">103</span>
                             <p class="info">Lectures</p>
-                          </div>
-                
-                          <div class="card-icon">
-                            <img src="image/fact-2.png" alt="">
-                          </div>
+                          </div>              
                         </div>
                 </div>
                 
@@ -143,11 +100,7 @@
                           <div class="card-content">
                             <span class="number">3,493</span>
                             <p class="info">5 Star Reviews</p>
-                          </div>
-                
-                          <div class="card-icon">
-                            <img src="image/fact-3.png" alt="">
-                          </div>
+                          </div>                       
                         </div>
                 </div>
                 
@@ -156,10 +109,6 @@
                           <div class="card-content">
                             <span class="number">21k</span>
                             <p class="info">Questions Solved</p>
-                          </div>
-                
-                          <div class="card-icon">
-                            <img src="image/fact-4.png" alt="">
                           </div>
                         </div>
                 </div>
@@ -186,8 +135,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="section-title section-black">
-          <h2>Investing Platform</h2>
-          <p>An Intuitive Interface for Litigation Financing</p>
+          <h2>Investment Platform</h2>
+          <p>An Intuitive Interface For Litigation Financing</p>
         </div>
       </div>
     </div>
@@ -203,15 +152,14 @@
                   </div>
                   <div class="acc-head-contents">
                     <h3>For Investors</h3>
-                    <p>Find lawsuits that interest you, look at its stats and invest in lawsuits in a return for a piece of the outcome.</p>
+                    <p>Find lawsuits that interest you, and invest in them.</p>
                   </div>
                 </div>
               </div>
               <div class="col-xl-4 col-lg-5 offset-xl-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>6 Video Classes</span>
-                    <span>3.4hrs</span>
+                    <span>Leginar Investment Platform</span>
                   </div>
                   <button class="btn acc-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <i class="icon icon-minimal-down"></i>
@@ -225,9 +173,10 @@
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Wide Selection Of Lawsuits With Corresponding Information</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Wide Variety Of Time Frames And Risk Values</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>High Annualized Return Rates</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Do Not Need To Be An Accredited Investor</a></li>
               </ul>
           </div>
         </div>
@@ -242,17 +191,18 @@
                   </div>
                   <div class="acc-head-contents">
                     <h3>For Litigants</h3>
-                    <p>Post cases that require money in order to be funded, and get investors.</p>
+                    <p>Post lawsuits that require investments.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 offset-lg-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>6 Video Classes</span>
-                    <span>3.4hrs</span>
+                    <span>Leginar Investment Platform</span>
                   </div>
+
                   <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+
                     <i class="icon icon-minimal-down"></i>
                   </button>
                 </div>
@@ -263,48 +213,10 @@
         <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
-              </ul>
-          </div>
-        </div>
-      </div>
-      <div class="card course-card"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400">
-        <div class="card-header" id="heading3">
-          <div class="row">
-              <div class="col-lg-6">
-                <div class="acc-left-content d-flex">
-                  <div class="acc-icon">
-                    <img src="./image/course-acc-icon.svg" alt="">
-                  </div>
-                  <div class="acc-head-contents">
-                    <h3>For Attorneys</h3>
-                    <p>Find cases that require lawyers and are in the process of being funded.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 offset-lg-2">
-                <div class="acc-right-content d-flex">
-                  <div class="course-length-badge">
-                    <span>6 Video Classes</span>
-                    <span>3.4hrs</span>
-                  </div>
-                  <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                    <i class="icon icon-minimal-down"></i>
-                  </button>
-                </div>
-              </div>
-          </div>
-          
-        </div>
-    
-        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
-          <div class="card-body">
-              <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Raise Capital To Fund Expenses</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Get Support For Civil Lawsuits, Class Actions And more</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Develop A Supportive Community</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Interact With Legal Domain Experts</a></li>
               </ul>
           </div>
         </div>
@@ -330,11 +242,11 @@
       <div class="col-lg-8">
         <div class="section-title section-black">
           <h2>Legal Managment Tools</h2>
-          <p>An comprehensive organizational service for legal managment</p>
+          <p>A Comprehensive Organizational Toolkit For Legal Managment</p>
         </div>
       </div>
     </div>
-    <div class="accordion course-accordion" id="accordionExample" >
+    <div class="accordion course-accordion" id="accordionExampleOne" >
       <div class="card course-card"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div class="card-header" id="headingOne">
           <div class="row">
@@ -345,17 +257,16 @@
                   </div>
                   <div class="acc-head-contents">
                     <h3>For Litigants</h3>
-                    <p>Manage case related information, be on top of financials, deadlines and document drafting and submission.</p>
+                    <p>Manage your lawsuit with ease.</p>
                   </div>
                 </div>
               </div>
               <div class="col-xl-4 col-lg-5 offset-xl-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>6 Video Classes</span>
-                    <span>3.4hrs</span>
+                    <span>Leginar Management Tools</span>
                   </div>
-                  <button class="btn acc-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="btn acc-toggle" type="button" data-toggle="collapse" data-target="#collapseOneOne" aria-expanded="true" aria-controls="collapseOneOne">
                     <i class="icon icon-minimal-down"></i>
                   </button>
                 </div>
@@ -364,16 +275,18 @@
           
         </div>
     
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div id="collapseOneOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExampleOne">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>View Case Progress And Deadlines</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Be On Top Of Deadlines</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Manage Financials</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Interact Easily With Attorneys</a></li>
               </ul>
           </div>
         </div>
       </div>
+
       <div class="card course-card"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200">
         <div class="card-header" id="heading2">
           <div class="row">
@@ -384,17 +297,18 @@
                   </div>
                   <div class="acc-head-contents">
                     <h3>For Attorneys</h3>
-                    <p>Manage all your clients, deadlines, document submission, financials and also interact with new clients and find lawsuits.</p>
+                    <p>Manage all clients, lawsuits and source new clients.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 offset-lg-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>6 Video Classes</span>
-                    <span>3.4hrs</span>
+                    <span>Leginar Management Tools</span>
                   </div>
-                  <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+
+                  <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapseOneTwo" aria-expanded="true" aria-controls="collapseOneTwo">
+
                     <i class="icon icon-minimal-down"></i>
                   </button>
                 </div>
@@ -403,19 +317,19 @@
           
         </div>
     
-    
-        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+        <div id="collapseOneTwo" class="collapse" aria-labelledby="heading2" data-parent="#accordionExampleOne">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Manage Clients And Lawsuits From One Dashboard</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Access Advanced Analytics, Data And Research</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Find New Clients And Lawsuits</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Draft, Edit and Submit Documents With Ease</a></li>
               </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+      </div>
+      </div>
 </section>
 <br>
 <br>
@@ -428,7 +342,7 @@
           <div class="col-md-9 col-lg-8 col-xl-7" data-aos="flip-down" data-aos-delay="55" data-aos-duration="2000" data-aos-once="true">
             <div class="footer-content">
                 <h2>Ready To Get Started? </h2>
-                <div class="footer-btn"><a href="" class="btn btn--orange btn--hover-shine">Join The Waitlist</a></div>
+                <div class="footer-btn"><a href="LeginarWaitlist/index.html" class="btn btn--orange btn--hover-shine">Join The Waitlist</a></div>
             </div>
           </div>
         </div>
