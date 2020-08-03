@@ -26,12 +26,30 @@
 <!--===============================================================================================-->
 </head>
 <body>
-
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="staticBackdropLabel">Success!</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<!-- <span aria-hidden="true">&times;</span> -->
+		  </button>
+		</div>
+		<div class="modal-body">
+		  Thank you for joining Leginar!
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-primary" id="modal-success">Back to Leginar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form action="https://comcast.us17.list-manage.com/subscribe/post?u=90b0080abfcd6fb59d0a93d6d&amp;id=0175da01eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="contact100-form validate-form validate" target="_blank" novalidate>
-				<span class="contact100-form-title">
+				<span id="form-title" class="contact100-form-title">
 					Join Leginar's Waitlist!
 				</span>
 
@@ -152,7 +170,27 @@
   gtag('config', 'UA-23581568-13');
 </script>
 
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='dropdown';fnames[4]='MMERGE4';ftypes[4]='dropdown';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='./js/mailchimp.js'></script>
+<script type='text/javascript'>
+	(function($) {
+		window.fnames = new Array(); 
+		window.ftypes = new Array();
+		fnames[1]='FNAME';
+		ftypes[1]='text';
+		fnames[2]='LNAME';
+		ftypes[2]='text';
+		fnames[0]='EMAIL';
+		ftypes[0]='email';
+		fnames[3]='MMERGE3';
+		ftypes[3]='dropdown';
+		fnames[4]='MMERGE4';
+		ftypes[4]='dropdown';
+		fnames[5]='MMERGE5';
+		ftypes[5]='text';
+		fnames[6]='MMERGE6';
+		ftypes[6]='text';
+	}(jQuery));var $mcj = jQuery.noConflict(true);
+</script>
 
 </body>
 </html>

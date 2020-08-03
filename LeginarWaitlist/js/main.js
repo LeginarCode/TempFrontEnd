@@ -68,3 +68,15 @@
     
 
 })(jQuery);
+
+
+function submitSuccess() {
+    console.log("Success Hooray");
+    $("#staticBackdrop").modal();
+}
+
+// const temp = document.getElementById("form-title");
+// temp.addEventListener("click", submitSuccess);
+
+const modal_button = document.getElementById("modal-success");
+modal_button.addEventListener("click", e => window.close());
