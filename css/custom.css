@@ -22241,17 +22241,12 @@
   border: 1px solid #6FCF97;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 58px;
-/* or 207% */
-
-text-align: center;
-letter-spacing: 0.2px;
-
-/* Green 2 */
-
-color: #27AE60;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #27AE60;
 }
 
 @media (min-width: 992px) {
@@ -23395,20 +23390,21 @@ color: #27AE60;
 }
 
 .footer-content h2 {
-  font-family: 'Work Sans', sans-serif;
-  color: #000000;
-  font-size: 33px;
-  font-weight: 600;
-  letter-spacing: -0.53px;
-  line-height: 35px;
   padding-bottom: 18px;
   margin-bottom: 27px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 60px;
+  line-height: 58px;
+  letter-spacing: 0.2px;
+  color: #707070;
 }
 
 @media (min-width: 480px) {
   .footer-content h2 {
     font-size: 36px;
-    letter-spacing: -2.53px;
+    letter-spacing: 0.2px;
     line-height: 45px;
   }
 }
@@ -23439,18 +23435,43 @@ color: #27AE60;
 }
 
 .footer-btn .btn {
-  height: 40px;
+  height: 60px;
   font-size: 16px;
+  font-family: 'Inter';
   letter-spacing: -1px;
   min-width: 137px;
+  background: #FFFFFF;
+  border: 1px solid #6FCF97;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #27AE60;
+}
+
+.footer-content .footer-btn .btn:hover {
+    background-color: #d4ffdc; /* Green */
 }
 
 @media (min-width: 768px) {
   .footer-btn .btn {
-    height: 60px;
-    min-width: 209px;
-    letter-spacing: -0.9px;
-    font-size: 18px;
+  font-size: 16px;
+  font-family: 'Inter';
+  letter-spacing: -1px;
+  min-width: 137px;
+  background: #FFFFFF;
+  border: 1px solid #6FCF97;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #27AE60;
   }
 }
 
