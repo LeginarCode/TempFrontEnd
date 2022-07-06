@@ -22399,8 +22399,8 @@ color: #27AE60;
 
 @media (min-width: 768px) {
   .course-section {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 
@@ -22436,7 +22436,7 @@ color: #27AE60;
 
 .course-accordion .course-card .card-header {
   padding: 30px;
-  background: transparent;
+  background: #f9f9f9;
   margin-bottom: 0;
   border-bottom: 0;
 }
@@ -22489,6 +22489,7 @@ color: #27AE60;
   padding-right: 30px;
   padding-bottom: 30px;
   padding-top: 10px;
+  background: #f9f9f9;
 }
 
 .course-accordion .course-card .acc-icon {
@@ -22510,13 +22511,14 @@ color: #27AE60;
 }
 
 .course-accordion .course-card .acc-head-contents h3 {
-  font-family: "Work Sans", sans-serif;
-  color: #000000;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: -1.26px;
-  line-height: 50px;
   margin-top: -8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 600;
+  font-size: 28px;
+  line-height: 58px;
+  letter-spacing: 0.2px;
+  color: #707070;
 }
 
 .course-accordion .course-card .acc-head-contents p {
@@ -23272,11 +23274,11 @@ color: #27AE60;
 
 .fact-card {
   padding: 60px 32px;
-  -webkit-box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
+  /*-webkit-box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
           box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
   border-radius: 10px;
   border: 1px solid #e5e5e5;
-  background-color: #ffffff;
+  background-color: #ffffff;*/
   position: relative;
   overflow: hidden;
 }
@@ -23483,7 +23485,7 @@ color: #27AE60;
 
 @media (min-width: 768px) {
   .footer-section {
-    padding-top: 140px;
+    padding-top: 70px;
   }
 }
 
