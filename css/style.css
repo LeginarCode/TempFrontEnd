@@ -2,6 +2,9 @@
 /*=====================================*/
 /*-- :::: Space Decrease :::: --*/
 /*=====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200..900');
+
 .space-db--0 {
   margin-bottom: 0px;
 }
@@ -21611,7 +21614,7 @@
 
 .section-title h2 {
   color: #ffffff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 35px;
   line-height: 45px;
@@ -21657,7 +21660,9 @@
 
 /* /////////////////////////// 
     Header Area
-//////////////////////////// */
+////////////////////////////
+ */
+
 @media (min-width: 768px) {
   .site-header {
     padding-top: 20px;
@@ -21953,6 +21958,18 @@
 /*/////////////////////////////// 
          HERO AREA
 ///////////////////////////////*/
+
+.row1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1488px;
+  height: 744px;
+  top: 50px;
+  background: #F9F9F9;
+  border: 2px solid #E2E2E2;
+  border-radius: 20px;
+}
+
 .hero-area {
   padding: 50px 0;
 }
@@ -21964,59 +21981,89 @@
 }
 
 .hero-content h1 {
-  color: #1f1f1f;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  letter-spacing: -2.33px;
-  line-height: 45px;
   margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
 }
 
 @media (min-width: 480px) {
   .hero-content h1 {
-    font-size: 50px;
-    line-height: 60px;
+    margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
   }
 }
 
 @media (min-width: 576px) {
   .hero-content h1 {
-    font-size: 55px;
-    line-height: 65px;
+    margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
   }
 }
 
 @media (min-width: 768px) {
   .hero-content h1 {
-    font-size: 43px;
-    line-height: 45px;
     margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
   }
 }
 
 @media (min-width: 992px) {
   .hero-content h1 {
-    margin-bottom: 15px;
-    font-size: 55px;
-    line-height: 60px;
+    margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
   }
 }
 
 @media (min-width: 1200px) {
   .hero-content h1 {
-    font-size: 70px;
-    line-height: 70px;
+    margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 70px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: #707070
   }
 }
 
 .hero-content p {
-  color: #666666;
-  font-family: "Karla", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: -0.4px;
-  line-height: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  letter-spacing: 0.15px;
+  color: #A8A8A8;
 }
 
 @media (min-width: 480px) {
@@ -22092,6 +22139,10 @@
   margin-bottom: 10px;
 }
 
+.hero-content .hero-btn .btn:hover {
+    background-color: #d4ffdc; /* Green */
+}
+
 @media (min-width: 992px) {
   .hero-content .hero-btn {
     margin-top: 28px;
@@ -22103,6 +22154,22 @@
   font-size: 16px;
   letter-spacing: -1px;
   min-width: 137px;
+  background: #FFFFFF;
+  border: 1px solid #6FCF97;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+/* or 207% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Green 2 */
+
+color: #27AE60;
 }
 
 @media (min-width: 992px) {
@@ -22111,6 +22178,22 @@
     min-width: 209px;
     letter-spacing: -0.9px;
     font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #6FCF97;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+line-height: 58px;
+/* or 207% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Green 2 */
+
+color: #27AE60;
   }
 }
 
@@ -22597,7 +22680,7 @@
   font-family: "Karla", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: -0.4px;
+  letter-spacing: 0.2px;
   line-height: 25px;
 }
 
@@ -23313,7 +23396,7 @@
 
 .footer-list li a {
   color: #000000;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -23334,7 +23417,7 @@
 
 .ft-newsletter-box span {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.32px;
@@ -23344,7 +23427,7 @@
 
 .ft-newsletter-box p {
   color: #000000;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -23367,7 +23450,7 @@
 
 .ft-newsletter-box input::-webkit-input-placeholder {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -23375,7 +23458,7 @@
 
 .ft-newsletter-box input:-ms-input-placeholder {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -23383,7 +23466,7 @@
 
 .ft-newsletter-box input::-ms-input-placeholder {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -23391,7 +23474,7 @@
 
 .ft-newsletter-box input::placeholder {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;

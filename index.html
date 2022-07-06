@@ -19,55 +19,109 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/custom.css">
-
-
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css2?family=Inter:wght@200..900' rel=’stylesheet’>
   <script src="./js/countdown.js"></script>
 </head>
 
+
+
+<!-- Header -->
 <body >
 <div class="site-wrapper">
 <!-- Header Starts -->
+<!-- Putting in the navigation bar. Includes:
+    1. Logo
+    2. Nav links
+    3. Sign up button -->
+
   <header class="site-header position-relative">
-        <div class="container">
+
+      <div class="container">
             <div class="row justify-content-center align-items-center position-relative">
-                <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
+                <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1 justify-content-center">
                   <!-- Brand Logo -->
-                    <div class="brand-logo">
-                        <h3 style = "font-family: arima madurai extra bold"><a href="">Leginar</a></h3>
-                        <!-- <a href=""><img src="image/leginar.png" alt="" /></a> -->
+                    <div class="brand-logo" ><p style="font-family: 'Inter'; color:#000000; font-weight: 600; margin: auto 0; align-items: center; justify-content: center;">Leginar</p></div>
+                </div>
+                <div class="col-sm-8 col-lg-2 col-xl-2 d-none d-sm-block order-lg-3">
+                    <div class="hero-btn">
+                       <ul class="main-menu">
+                        <li class="menu-item "><a href="#features">Join</a></li>
+                      </ul>
                     </div>
                 </div>
                 <!-- Menu Block -->
-                
+                <div class="col-sm-1 col-6 col-lg-6 col-xl-6 offset-lg-2  position-static order-lg-2">
+                    <div class="main-navigation">
+                        <ul class="main-menu">
+                            <li class="menu-item has-dropdown">
+                                <a href="#features">For investors</a>
+                                    <ul class="menu-dropdown">
+                                        <li class="single-item">
+                                            <a href="">
+                                            <h3>Mobile Application</h3> 
+                                            <p>Best for Mobile App Presentation</p>
+                                            </a>
+                                        </li>
+                                        <li class="single-item">
+                                            <a href="">
+                                                <h3>Web Application</h3>
+                                                <p>Best for Mobile App Presentation</p>
+                                            </a> 
+                                        </li>
+                                        <li class="single-item">
+                                            <a href="">
+                                                <h3>SaaS Application</h3>
+                                            <p>Best for Mobile App Presentation</p>
+                                        </a> 
+                                        </li>
+                                        <li class="single-item">
+                                            <a href="">
+                                                    <h3> SaaS Subscription</h3>
+                                                <p>Best for Mobile App Presentation</p>
+                                            </a> 
+                                        </li>
+                                    </ul>
+                                </li>
+                            <li class="menu-item "><a href="#features">For litigants</a></li>
+                    
+                            <li class="menu-item"><a href="#">For attorneys</a></li>
+                            </ul>
+                    </div>
+                    <div class="mobile-menu"></div>
+                </div>
             </div>
         </div>
-        <div class="shape-holder header-shape" data-aos="fade-down" data-aos-once="true"><img src="image/header-shape.svg" alt=""></div>
+
   </header>
+
+
 
 <!-- Hero-Area -->
 <div class="hero-area position-relative">
+  <div class="hero-card">
   <div class="container">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-7 col-12">
         <div class="hero-content">
-          <h1>Litigation Financing and Management</h1>
-          <p>Leginar is building a platform for people to invest in lawsuits. We also develop dashboards and organizational tools for litigants, attorneys and law firms to manage their documents, finances and deadlines. </p>
-          <div class="hero-btn"><a href="LeginarWaitlist/index.html" target="_blank" class="btn btn--orange btn--hover-shine">Join The Waitlist</a></div>
+          <h1     font-family: Inter>Litigation financing for all.</h1>
+          <p>Leginar is building a platform for people to invest in lawsuits. </p>
+          <div class="hero-btn"><a href="LeginarWaitlist/index.html" target="_blank" class="btn">Join Waitlist</a></div>
         </div>
       </div>
 
       <div class="col-xl-6 col-lg-6 col-md-5 col-12">
         <div class="hero-media">
-          <img src="image/legaltech.jpg" alt="">
+          <img src="image/KalshiPlaceholder.png" alt="">
           <!-- <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a> -->
-          <div class="media-shape animate-spin"><img src="image/media-shape.png" alt=""></div>
+          <!-- <div class="media-shape animate-spin"><img src="image/media-shape.png" alt=""></div> -->
           <!-- <p id="countdown"></p> -->
         </div>
       </div>
-
+      </div>
     </div>
   </div>
-  <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div>
+  <!-- <div class="shape-holder hero-shape" data-aos="fade-right" data-aos-once="true"><img src="image/hero-orange-shape.svg" alt=""></div> -->
 </div>
 
 <!-- Facts Section -->
@@ -76,19 +130,19 @@
     <div class="position-relative">
       <div class="fact-absolute">
           <div class="row justify-content-center">
-              <div class="col-xl-7 col-lg-8 mb--35  text-center">
+              <!-- <div class="col-xl-7 col-lg-8 mb--35  text-center">
                 <span class="fact-text">A novel approach to commercialize, invest in and manage lawsuits.</span>
-              </div>
+              </div> -->
             </div>
             <div class="row justify-content-center space-db--30">
                 <div class="col-md-6 col-lg-3 mb--30" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <div class="fact-card" >
                           <div class="card-content">
-                            <div class="course-length-badge">
+                            <!-- <div class="course-length-badge">
                               <span>Leginar Investment Platform</span>
-                            </div>
-                            <span class="number">$10</span>
-                            <p class="info">Minimum Investment</p>
+                            </div> -->
+                            <span class="number" style = "font-weight: 500;">$10</span>
+                            <p class="info">Minimum investment</p>
                           </div>
                         </div>
                 </div>
@@ -96,11 +150,11 @@
                 <div class="col-md-6 col-lg-3 mb--30" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200">
                         <div class="fact-card" >
                           <div class="card-content">
-                            <div class="course-length-badge">
+                            <!-- <div class="course-length-badge">
                               <span>Leginar Investment Platform</span>
-                            </div>
+                            </div> -->
                             <span class="number">36%</span>
-                            <p class="info">Litigation Finanacing's AAR </p>
+                            <p class="info">Litigation finanacing's AAR </p>
                           </div>              
                         </div>
                 </div>
@@ -108,26 +162,15 @@
                 <div class="col-md-6 col-lg-3 mb--30" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400">
                         <div class="fact-card" >
                           <div class="card-content">
-                            <div class="course-length-badge">
+                            <!-- <div class="course-length-badge">
                               <span>Leginar Management Tools</span>
-                            </div>
-                            <span class="number">10+</span>
-                            <p class="info">Types Of Lawsuits Supported</p>
+                            </div> -->
+                            <span class="number">50+</span>
+                            <p class="info">Civil lawsuits on the platform</p>
                           </div>                       
                         </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-3 mb--30" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="600">
-                        <div class="fact-card" >
-                          <div class="card-content">
-                            <div class="course-length-badge">
-                              <span>Leginar Management Tools</span>
-                            </div>
-                            <span class="number">5+</span>
-                            <p class="info">Advanced Analytics Features</p>
-                          </div>
-                        </div>
-                </div>
             </div>
       </div>
     </div>
@@ -136,26 +179,23 @@
 
 
 <!-- Course section -->
-<section class="course-section position-relative pb-0" style="background-color: #A8D0E6;">
-  <div class="shape-holder">
-    <img src="./image/section-2-shape-bg.svg" alt="">
-  </div>
-  <div class="shape-holder" style="z-index: 0;" data-aos="zoom-in"  data-aos-once="true">
-    <img src="./image/section-2-shape.svg" alt="">
-  </div>
-  <!-- <div class="shape-holder course-shape-3" style="z-index: 2;" data-aos="zoom-in-left" data-aos-once="true">
-    <img src="./image/course-yellow-svg.svg" alt="">
-  </div> -->
+<section class="course-section position-relative" style="background-color: #F6F6F6;">
 
-  <div class="container pt-lg--85 mt-5">
+<!-- Course section -->
+
+<!-- Commenting out the investment platform text -->
+
+  <div class="container pt-lg--0 mt-0">
     <div class="row justify-content-center mt-5">
       <div class="col-lg-8">
         <div class="section-title section-black">
-          <h2>Investment Platform</h2>
-          <p>An Intuitive Interface For Litigation Financing</p>
+          <!-- <h2>Investment Platform</h2>
+          <p>An Intuitive Interface For Litigation Financing</p> -->
         </div>
       </div>
     </div>
+ 
+
 
     <div class="accordion course-accordion" id="accordionExample" >
       <div class="card course-card"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
@@ -167,15 +207,16 @@
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
                   <div class="acc-head-contents">
-                    <h3>For Investors</h3>
-                    <p>Find lawsuits that interest you, and invest in them.</p>
+                    <h3>Analyzing User Data</h3>
+                    <p>Who are you developing for? How will they use your design? Building user personas can answer these.</p>
                   </div>
                 </div>
               </div>
               <div class="col-xl-4 col-lg-5 offset-xl-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>Leginar Investment Platform</span>
+                    <span>6 Video Classes</span>
+                    <span>3.4hrs</span>
                   </div>
                   <button class="btn acc-toggle" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <i class="icon icon-minimal-down"></i>
@@ -189,10 +230,9 @@
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Wide Selection Of Lawsuits With Corresponding Information</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Wide Variety Of Time Frames And Risk Values</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>High Annualized Return Rates</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Do Not Need To Be An Accredited Investor</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
               </ul>
           </div>
         </div>
@@ -206,105 +246,38 @@
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
                   <div class="acc-head-contents">
-                    <h3>For Litigants</h3>
-                    <p>Post lawsuits that require investments.</p>
+                    <h3>User Persona</h3>
+                    <p>Who are you developing for? How will they use your design? Building user personas can answer these.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 offset-lg-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>Leginar Investment Platform</span>
+                    <span>6 Video Classes</span>
+                    <span>3.4hrs</span>
                   </div>
-
                   <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-
                     <i class="icon icon-minimal-down"></i>
                   </button>
                 </div>
               </div>
           </div>
+          
         </div>
     
         <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Raise Capital To Fund Expenses</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Get Support For Civil Lawsuits, Class Actions And more</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Develop A Supportive Community</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Interact With Legal Domain Experts</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
               </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- For Legal Management Tools -->
-<section class="course-section position-relative" style="background-color: #A8D0E6;">
-  <div class="shape-holder">
-    <img src="./image/section-3-shape-bg.svg" alt="">
-  </div>
-  <!-- <div class="shape-holder" data-aos="zoom-in"  data-aos-once="true">
-    <img src="./image/section-2-shape.svg" alt="">
-  </div> -->
-  <div class="shape-holder course-shape-3" style="z-index: 0;" data-aos="zoom-in-left" data-aos-once="true">
-    <img src="./image/course-yellow-svg.svg" alt="">
-  </div>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="section-title section-black">
-          <h2>Legal Managment Tools</h2>
-          <p>A Comprehensive Organizational Toolkit For Legal Managment</p>
-        </div>
-      </div>
-    </div>
-    <div class="accordion course-accordion" id="accordionExampleOne" >
-      <div class="card course-card"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        <div class="card-header" id="headingOne">
-          <div class="row">
-              <div class="col-xl-6 col-lg-7">
-                <div class="acc-left-content d-flex">
-                  <div class="acc-icon">
-                    <img src="./image/course-acc-icon.svg" alt="">
-                  </div>
-                  <div class="acc-head-contents">
-                    <h3>For Litigants</h3>
-                    <p>Manage your lawsuit with ease.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-5 offset-xl-2">
-                <div class="acc-right-content d-flex">
-                  <div class="course-length-badge">
-                    <span>Leginar Management Tools</span>
-                  </div>
-                  <button class="btn acc-toggle" type="button" data-toggle="collapse" data-target="#collapseOneOne" aria-expanded="true" aria-controls="collapseOneOne">
-                    <i class="icon icon-minimal-down"></i>
-                  </button>
-                </div>
-              </div>
-          </div>
-          
-        </div>
-    
-        <div id="collapseOneOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExampleOne">
-          <div class="card-body">
-              <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>View Case Progress And Deadlines</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Be On Top Of Deadlines</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Manage Financials</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Interact Easily With Attorneys</a></li>
-              </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="card course-card"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="200">
-        <div class="card-header" id="heading2">
+      <div class="card course-card"  data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" data-aos-delay="400">
+        <div class="card-header" id="heading3">
           <div class="row">
               <div class="col-lg-6">
                 <div class="acc-left-content d-flex">
@@ -312,19 +285,18 @@
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
                   <div class="acc-head-contents">
-                    <h3>For Attorneys</h3>
-                    <p>Manage clients, lawsuits and source new clients.</p>
+                    <h3>Prototyping</h3>
+                    <p>Who are you developing for? How will they use your design? Building user personas can answer these.</p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-4 offset-lg-2">
                 <div class="acc-right-content d-flex">
                   <div class="course-length-badge">
-                    <span>Leginar Management Tools</span>
+                    <span>6 Video Classes</span>
+                    <span>3.4hrs</span>
                   </div>
-
-                  <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapseOneTwo" aria-expanded="true" aria-controls="collapseOneTwo">
-
+                  <button class="btn acc-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                     <i class="icon icon-minimal-down"></i>
                   </button>
                 </div>
@@ -333,26 +305,24 @@
           
         </div>
     
-        <div id="collapseOneTwo" class="collapse" aria-labelledby="heading2" data-parent="#accordionExampleOne">
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
           <div class="card-body">
               <ul class="course-inline-list">
-                <li><a href=""><i class="icon icon-check-2"></i>Manage Clients And Lawsuits From One Dashboard</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Access Advanced Analytics, Data And Research</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Find New Clients And Lawsuits</a></li>
-                <li><a href=""><i class="icon icon-check-2"></i>Draft, Edit and Submit Documents With Ease</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Persona Creation</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Why Persona is Important</a></li>
+                <li><a href=""><i class="icon icon-check-2"></i>Data-Driven Personas</a></li>
               </ul>
           </div>
         </div>
       </div>
-      </div>
-      </div>
+    </div> 
 </section>
 <!-- <br>
 <br> -->
 
 
 <!-- Footer Section -->
-<div class="footer-section position-relative mt-4 mt-sm-4" style="z-index: 1; background-color:#EAE7DC;">
+<div class="footer-section position-relative mt-4 mt-sm-0" style="z-index: 1; background-color:#ffffff;">
   <div class="container margin-decrese" style="border-style: none; margin-top:1rem;">
       <div class="row justify-content-center">
           <div class="col-md-9 col-lg-8 col-xl-7" data-aos="flip-down" data-aos-delay="55" data-aos-duration="2000" data-aos-once="true">
@@ -365,9 +335,10 @@
         <span class="section-devider mt--130" style="border-style: none;"></span>
       <!-- <div class="row mt--70">
   </div> -->
-  <div class="shape-holder footer-shape-1" data-aos="zoom-in-left" data-aos-once="true"><img src="image/cta-shape.svg" alt=""></div>
-  <div class="shape-holder footer-shape-2" data-aos="zoom-in-right" data-aos-once="true"><img src="image/footer-shape.svg" alt=""></div>
-</div>
+<!-- 
+  <div class="shape-holder footer-shape-1" data-aos="zoom-in-left" data-aos-once="true"><img src="image/cta-shape.svg" alt=""></div> -->
+<!--   <div class="shape-holder footer-shape-2" data-aos="zoom-in-right" data-aos-once="true"><img src="image/footer-shape.svg" alt=""></div>
+ --></div>
 </div>
   <!-- Vendor JS-->
   <script src="./plugins/jquery/jquery.min.js"></script>
