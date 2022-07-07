@@ -5,6 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200..900');
 
+html {
+  scroll-behavior: smooth;
+}
+
 .space-db--0 {
   margin-bottom: 0px;
 }
@@ -22030,7 +22034,7 @@
 
 .hero-card .card-content .info {
   color: #333333;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter'
   font-size: 21px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -22198,7 +22202,7 @@
 
 .hero-content .rating .text {
   color: #878b90;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 13px;
   font-weight: 400;
   letter-spacing: -0.32px;
@@ -22522,11 +22526,12 @@ color: #27AE60;
 }
 
 .course-accordion .course-card .acc-head-contents p {
-  color: #666666;
+  color: #A8A8A8;
   font-size: 17px;
-  font-weight: 400;
-  letter-spacing: -0.4px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
   line-height: 28px;
+  font-family: 'Inter';
 }
 
 .course-accordion .course-card .acc-head-contents p:last-child {
@@ -22631,10 +22636,11 @@ color: #27AE60;
 }
 
 .course-accordion .course-card .course-inline-list li a {
-  color: #1f1f1f;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.86px;
+  color: #868686;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .2px;
   line-height: 32px;
 }
 
@@ -22706,7 +22712,7 @@ color: #27AE60;
 
 .aurthor-content .account {
   color: #4ebe86;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 21px;
   font-weight: 700;
   letter-spacing: -0.4px;
@@ -22758,7 +22764,7 @@ color: #27AE60;
 
 .aurthor-content p {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.2px;
@@ -23083,7 +23089,7 @@ color: #27AE60;
 
 .faq-section .content p {
   color: #e5e5e5;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.4px;
@@ -23266,7 +23272,7 @@ color: #27AE60;
 
 .fact-text {
   color: #333333;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 24px;
   font-weight: 400;
   letter-spacing: -1px;
@@ -23303,7 +23309,7 @@ color: #27AE60;
   color: #27AE60;
   font-family: 'Inter';
   font-style: normal;
-  font-variation-settings: 'wght' 900;
+  font-weight: 400;
   letter-spacing: -2px;
   font-size: 50px;
   line-height: 65px;
@@ -23315,7 +23321,7 @@ color: #27AE60;
     line-height: 55px;
     font-family: 'Inter';
     font-style: normal;
-    font-variation-settings: 'wght' 900;
+    font-weight: 400;
   }
 }
 
@@ -23330,10 +23336,8 @@ color: #27AE60;
 }
 
 .fact-card .card-content .info {
-  color: #333333;
-  font-family: "Karla", sans-serif;
+  color: #A8A8A8;
   font-size: 21px;
-  font-weight: 400;
   letter-spacing: -0.4px;
   font-family: 'Inter';
   font-style: normal;
@@ -23377,7 +23381,7 @@ color: #27AE60;
 
 .footer-content .title-small-text {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter';
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
@@ -23479,13 +23483,13 @@ color: #27AE60;
 
 .footer-section {
   border-bottom: 1px solid #e5e5e5;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 @media (min-width: 768px) {
   .footer-section {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 }
 
@@ -23499,7 +23503,7 @@ color: #27AE60;
 
 .ft-title-sm {
   color: #666666;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.32px;
