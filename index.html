@@ -24,6 +24,35 @@
   <script src="./js/countdown.js"></script>
 </head>
 
+ <!-- Script for scrolling to content when header buttons are clicked -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 400, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 
 
 <!-- Header -->
@@ -46,7 +75,7 @@
                 <div class="col-sm-8 col-lg-2 col-xl-2 d-none d-sm-block order-lg-3">
                     <div class="hero-btn">
                        <ul class="main-menu">
-                        <li class="menu-item "><a href="https://airtable.com/shrnOGkO3SrQm05h2">Join</a></li>
+                        <li class="menu-item "><a href="https://grass-jet-50f.notion.site/How-it-works-cbff4e62e28d42afaae0eb0911f2e69e">How it works</a></li>
                       </ul>
                     </div>
                 </div>
@@ -55,7 +84,7 @@
                     <div class="main-navigation">
                         <ul class="main-menu">
                             <li class="menu-item has-dropdown">
-                                <a href="#features">For investors</a>
+                                <a href="#ForInvestors">For investors</a>
                                     <!-- <ul class="menu-dropdown">
                                         <li class="single-item">
                                             <a href="">
@@ -83,9 +112,9 @@
                                         </li>
                                     </ul> -->
                                 </li>
-                            <li class="menu-item "><a href="#features">For litigants</a></li>
+                            <li class="menu-item "><a href="#ForLitigants">For litigants</a></li>
                     
-                            <li class="menu-item"><a href="#">For attorneys</a></li>
+                            <li class="menu-item"><a href="#ForAttorneys">For attorneys</a></li>
                             </ul>
                     </div>
                     <div class="mobile-menu"></div>
@@ -112,7 +141,7 @@
 
       <div class="col-xl-6 col-lg-6 col-md-5 col-12">
         <div class="hero-media">
-          <img src="image/KalshiPlaceholder.png" alt="">
+          <img src="image/main pic.svg" alt="">
           <!-- <a class="video-play-trigger" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class="icon icon-triangle-right-17-2"></i></a> -->
           <!-- <div class="media-shape animate-spin"><img src="image/media-shape.png" alt=""></div> -->
           <!-- <p id="countdown"></p> -->
@@ -206,7 +235,7 @@
                   <div class="acc-icon">
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
-                  <div class="acc-head-contents">
+                  <div class="acc-head-contents" id="ForInvestors">
                     <h3>For investors.</h3>
                     <p>Build your portfolio and subscribe to your favorite case topics.</p>
                   </div>
@@ -246,7 +275,7 @@
                   <div class="acc-icon">
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
-                  <div class="acc-head-contents">
+                  <div class="acc-head-contents" id="ForLitigants">
                     <h3>For litigants.</h3>
                     <p>Upload your case and for instant access to funding.</p>
                   </div>
@@ -286,7 +315,7 @@
                   <div class="acc-icon">
                     <img src="./image/course-acc-icon.svg" alt="">
                   </div>
-                  <div class="acc-head-contents">
+                  <div class="acc-head-contents" id="ForAttorneys">
                     <h3>For attorneys.</h3>
                     <p>Fund clients on Leginar and get paid upfront for your cases.</p>
                   </div>
