@@ -22093,6 +22093,12 @@ html {
   margin-top: -5%;
 }
 
+@media (min-width: 300px) {
+  .hero-card1 {
+    padding: 3px 2px;
+  }
+}
+
 @media (min-width: 992px) {
   .hero-card1 {
     padding: 30px 25px;
@@ -22117,6 +22123,16 @@ html {
   letter-spacing: -2px;
   font-size: 50px;
   line-height: 65px;
+}
+
+@media (min-width: 300px) {
+  .hero-card1 .card-content .number {
+    font-size: 50px;
+    line-height: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-variation-settings: 'wght' 900;
+  }
 }
 
 @media (min-width: 992px) {
@@ -22172,6 +22188,18 @@ html {
   line-height: 75px;
   letter-spacing: 0.2px;
   color: #616161
+}
+
+@media (min-width: 250px) {
+  .hero-content h1 {
+    margin-bottom: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+  font-size: 45px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  }
 }
 
 @media (min-width: 480px) {
@@ -22243,6 +22271,13 @@ html {
   color: #979797
 }
 
+@media (min-width: 250px) {
+  .hero-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
 @media (min-width: 480px) {
   .hero-content p {
     font-size: 17px;
@@ -22264,6 +22299,13 @@ html {
   }
 }
 
+@media (min-width: 992px) {
+  .hero-content p {
+    line-height: 32px;
+    font-size: 21px;
+  }
+}
+
 .hero-content h2 {
   font-style: normal;
   font-weight: 800;
@@ -22271,6 +22313,14 @@ html {
   line-height: 21px;
   letter-spacing: 0.2px;
   color: #6FCF97
+}
+
+
+@media (min-width: 250px) {
+  .hero-content h2 {
+    font-size: 17px;
+    line-height: 21px;
+  }
 }
 
 @media (min-width: 480px) {
@@ -22310,6 +22360,13 @@ html {
   color: #f5f5f5
 }
 
+@media (min-width: 250px) {
+  .hero-content h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
 @media (min-width: 480px) {
   .hero-content h3 {
     font-size: 60px;
@@ -22338,13 +22395,6 @@ html {
   }
 }
 
-@media (min-width: 992px) {
-  .hero-content p {
-    line-height: 32px;
-    font-size: 21px;
-  }
-}
-
 .hero-content h4 {
   font-style: normal;
   font-weight: 200;
@@ -22352,6 +22402,13 @@ html {
   line-height: 21px;
   letter-spacing: 0.2px;
   color: #d5d5d5
+}
+
+@media (min-width: 250px) {
+  .hero-content h4 {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
 @media (min-width: 480px) {
@@ -22425,6 +22482,7 @@ html {
 
 .hero-content .hero-btn {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .hero-content .hero-btn .btn:hover {
