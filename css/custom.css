@@ -22142,7 +22142,7 @@ html {
 .hero-card1 .card-content .info {
   color: #333333;
   font-family: 'Inter'
-  font-size: 21px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: -0.4px;
   font-family: 'Inter';
@@ -22305,7 +22305,7 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 30px;
+  line-height: 50px;
   letter-spacing: 0.15px;
   color: #f5f5f5
 }
@@ -22313,21 +22313,21 @@ html {
 @media (min-width: 480px) {
   .hero-content h3 {
     font-size: 60px;
-    line-height: 25px;
+    line-height: 50px;
   }
 }
 
 @media (min-width: 576px) {
   .hero-content h3 {
     font-size: 60px;
-    line-height: 25px;
+    line-height: 50px;
   }
 }
 
 @media (min-width: 768px) {
   .hero-content h3 {
-    line-height: 60px;
-    font-size: 16px;
+    line-height: 50px;
+    font-size: 60px;
   }
 }
 
@@ -22378,7 +22378,7 @@ html {
 @media (min-width: 992px) {
   .hero-content h4 {
     line-height: 21px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -22767,6 +22767,14 @@ color: #27AE60;
   .course-accordion .course-card .acc-icon {
     margin-bottom: 0;
   }
+  .course-accordion .course-card .card-body {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  background: #f9f9f9;
+  width: ;
+}
 }
 
 @media (min-width: 576px) {
@@ -23703,7 +23711,7 @@ color: #27AE60;
 
 .footer-btn .btn {
   height: 60px;
-  font-size: 16px;
+  font-size: 21px;
   font-family: 'Inter';
   letter-spacing: -1px;
   min-width: 137px;
@@ -23725,7 +23733,7 @@ color: #27AE60;
 
 @media (min-width: 768px) {
   .footer-btn .btn {
-  font-size: 16px;
+  font-size: 21px;
   font-family: 'Inter';
   letter-spacing: -1px;
   min-width: 137px;
