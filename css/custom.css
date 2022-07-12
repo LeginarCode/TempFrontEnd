@@ -21972,7 +21972,7 @@ html {
 ///////////////////////////////*/
 
 .hero-card {
-  padding: 80px 32px;
+  padding: 60px 32px;
   -webkit-box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
           box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
   border-radius: 20px;
@@ -21980,7 +21980,7 @@ html {
   background-color: #f9f9f9;
   position: relative;
   overflow: hidden;
-  width: 85%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -5%;
@@ -21988,13 +21988,20 @@ html {
 
 @media (min-width: 992px) {
   .hero-card {
-    padding: 40px 25px;
+    padding: 50px 25px;
   }
 }
 
 @media (min-width: 1200px) {
   .hero-card {
-    padding: 60px 32px;
+    padding: 60px 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-card {
+    padding-bottom: 20px;
+    padding-top: 70px;
   }
 }
 
@@ -22044,7 +22051,7 @@ html {
 }
 
 .hero-card .card-content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 2;
   font-family: 'Inter';
   font-style: normal;
 }
@@ -22063,8 +22070,97 @@ html {
 @media (min-width: 768px) {
   .hero-area {
     padding: 120px 0;
-    padding-bottom: 80px;
+    padding-bottom: 10px;
   }
+}
+
+/*/////////////////////////////// 
+         HERO AREA FOR HOW THIS WORKS
+///////////////////////////////*/
+
+.hero-card1 {
+  padding: 60px 32px;
+  -webkit-box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
+          box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #2c2e32;
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5%;
+}
+
+@media (min-width: 992px) {
+  .hero-card1 {
+    padding: 30px 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-card1 {
+    padding: 30px 32px;
+  }
+}
+
+.hero-card1 .card-content {
+  text-align: center;
+}
+
+.hero-card1 .card-content .number {
+  color: #27AE60;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 900;
+  letter-spacing: -2px;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+@media (min-width: 992px) {
+  .hero-card1 .card-content .number {
+    font-size: 50px;
+    line-height: 55px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-variation-settings: 'wght' 900;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-card1 .card-content .number {
+    line-height: 65px;
+    font-size: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-variation-settings: 'wght' 900;
+  }
+}
+
+.hero-card1 .card-content .info {
+  color: #333333;
+  font-family: 'Inter'
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-variation-settings: 'wght' 700;
+}
+
+.hero-card1 .card-content p:last-child {
+  margin-bottom: 0;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.hero-card1 .card-icon {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  opacity: .08;
 }
 
 .hero-content h1 {
@@ -22075,7 +22171,7 @@ html {
   font-size: 70px;
   line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
+  color: #616161
 }
 
 @media (min-width: 480px) {
@@ -22087,7 +22183,6 @@ html {
   font-size: 70px;
   line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
   }
 }
 
@@ -22100,7 +22195,6 @@ html {
   font-size: 70px;
   line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
   }
 }
 
@@ -22113,7 +22207,6 @@ html {
   font-size: 70px;
   line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
   }
 }
 
@@ -22126,7 +22219,6 @@ html {
   font-size: 70px;
  line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
   }
 }
 
@@ -22139,7 +22231,6 @@ html {
   font-size: 70px;
   line-height: 75px;
   letter-spacing: 0.2px;
-  color: #707070
   }
 }
 
@@ -22147,15 +22238,15 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 58px;
-  letter-spacing: 0.15px;
-  color: #A8A8A8;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #979797
 }
 
 @media (min-width: 480px) {
   .hero-content p {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 33px;
   }
 }
 
@@ -22168,15 +22259,126 @@ html {
 
 @media (min-width: 768px) {
   .hero-content p {
-    line-height: 25px;
+    line-height: 33px;
+    font-size: 16px;
+  }
+}
+
+.hero-content h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #6FCF97
+}
+
+@media (min-width: 480px) {
+  .hero-content h2 {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-content h2 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-content h2 {
+    line-height: 19px;
     font-size: 16px;
   }
 }
 
 @media (min-width: 992px) {
+  .hero-content h2 {
+    line-height: 21px;
+    font-size: 20px;
+  }
+}
+
+.hero-content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #f5f5f5
+}
+
+@media (min-width: 480px) {
+  .hero-content h3 {
+    font-size: 60px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-content h3 {
+    font-size: 60px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-content h3 {
+    line-height: 60px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content h3 {
+    line-height: 60px;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) {
   .hero-content p {
-    line-height: 36px;
+    line-height: 32px;
     font-size: 21px;
+  }
+}
+
+.hero-content h4 {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #d5d5d5
+}
+
+@media (min-width: 480px) {
+  .hero-content h4 {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 576px) {
+  .hero-content h4 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-content h4 {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content h4 {
+    line-height: 21px;
+    font-size: 18px;
   }
 }
 
@@ -22279,6 +22481,64 @@ color: #27AE60;
   }
 }
 
+.hero-content .hero-btn1 {
+  margin-bottom: 10px;
+}
+
+.hero-content .hero-btn1 .btn:hover {
+    background-color: #d4ffdc; /* Green */
+}
+
+@media (min-width: 992px) {
+  .hero-content .hero-btn1 {
+    margin-top: 28px;
+  }
+}
+
+.hero-content .hero-btn1 .btn {
+  height: 40px;
+  font-size: 16px;
+  font-family: 'Inter';
+  letter-spacing: -1px;
+  min-width: 137px;
+  background: #FFFFFF;
+  border: 1px solid #6FCF97;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #27AE60;
+}
+
+@media (min-width: 992px) {
+  .hero-content .hero-btn1 .btn {
+    height: 60px;
+    min-width: 209px;
+    letter-spacing: -0.9px;
+    font-size: 18px;
+    font-family: 'Inter';
+    background: #FFFFFF;
+    border: 1px solid #6FCF97;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+line-height: 58px;
+/* or 207% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Green 2 */
+
+color: #27AE60;
+  }
+}
+
 .hero-media {
   position: relative;
   margin-top: 20px;
@@ -22287,6 +22547,7 @@ color: #27AE60;
 @media (min-width: 768px) {
   .hero-media {
     margin-top: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -22398,13 +22659,13 @@ color: #27AE60;
            Course section
 ///////////////////////////////*/
 .course-section {
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 @media (min-width: 768px) {
   .course-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -23145,7 +23406,7 @@ color: #27AE60;
 
 @media (min-width: 992px) {
   .fact-absolute {
-    position: absolute;
+    position: relative;
   }
 }
 
@@ -23266,7 +23527,7 @@ color: #27AE60;
  //////////////////////////////*/
 @media (min-width: 992px) {
   .facts-section {
-    padding-bottom: 130px;
+    padding-bottom: 0px;
   }
 }
 
@@ -23404,7 +23665,7 @@ color: #27AE60;
   font-size: 60px;
   line-height: 58px;
   letter-spacing: 0.2px;
-  color: #707070;
+  color: #616161;
 }
 
 @media (min-width: 480px) {
