@@ -22348,7 +22348,7 @@ html {
 .hero-content h4 {
   font-style: normal;
   font-weight: 200;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.2px;
   color: #d5d5d5
@@ -22356,7 +22356,7 @@ html {
 
 @media (min-width: 480px) {
   .hero-content h4 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 21px;
   }
 }
@@ -22371,14 +22371,14 @@ html {
 @media (min-width: 768px) {
   .hero-content h4 {
     line-height: 19px;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 992px) {
   .hero-content h4 {
     line-height: 21px;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -22819,20 +22819,20 @@ color: #27AE60;
 .course-accordion .course-card .acc-toggle i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  -webkit-transition: -webkit-transform .4s;
-  transition: -webkit-transform .4s;
-  transition: transform .4s;
-  transition: transform .4s, -webkit-transform .4s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
   color: #878b90;
 }
 
 .course-accordion .course-card .acc-toggle.collapsed i {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  -webkit-transition: -webkit-transform .4s;
-  transition: -webkit-transform .4s;
-  transition: transform .4s;
-  transition: transform .4s, -webkit-transform .4s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .course-accordion .course-card .course-length-badge {
