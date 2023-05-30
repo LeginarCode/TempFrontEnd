@@ -21734,7 +21734,7 @@
             box-shadow: 0 12px 24px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
     border: 1px solid #e5e5e5;
-    background-color: #ffffff;
+    background-color: #F7f4ed;
     padding: 30px 30px 0px;
     z-index: 99;
     opacity: 0;
@@ -22154,7 +22154,7 @@
   font-size: 16px;
   letter-spacing: -1px;
   min-width: 137px;
-  background: #FFFFFF;
+  background: #F7f4ed;
   border: 1px solid #6FCF97;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
@@ -22178,7 +22178,7 @@ color: #27AE60;
     min-width: 209px;
     letter-spacing: -0.9px;
     font-size: 18px;
-    background: #FFFFFF;
+    background: #F7f4ed;
     border: 1px solid #6FCF97;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
@@ -22828,7 +22828,7 @@ color: #27AE60;
   border-radius: 5px;
   padding: 10px;
   border: 1px solid #e5e5e5;
-  background-color: #ffffff;
+  background-color: #F7f4ed;
 }
 
 .testimonial-slider .testimonial-card .image {
@@ -23197,7 +23197,7 @@ color: #27AE60;
           box-shadow: 0 10px 60px rgba(35, 44, 39, 0.05);
   border-radius: 10px;
   border: 1px solid #e5e5e5;
-  background-color: #ffffff;
+  background-color: #F7f4ed;
   position: relative;
   overflow: hidden;
 }
